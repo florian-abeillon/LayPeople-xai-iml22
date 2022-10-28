@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+
+  backend:
+    build:
+      context: ./back
+      dockerfile: Dockerfile
+    command: uvicorn app:app --reload --host 0.0.0.0
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./front
+      dockerfile: Dockerfile
+    command: npm start
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
