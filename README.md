@@ -205,6 +205,8 @@ At the current project stage, we use the "demo" dataset.
 
 ## Requirements
 
+Please extracts the weights file of the blackbox model, eg. with `tar -xf back/models/blackbox/weights.tar.xz -C back/models/blackbox/`
+
 Please install Docker, and run `docker-compose build`
 
 Alternatively, you can run `cd back && python build_repo.py` to

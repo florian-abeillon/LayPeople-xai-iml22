@@ -1,0 +1,13 @@
+Pentagon:
+ - Accuracy
+ - Balance (exploration vs exploitation)
+ - Diversity
+ - Serendipity
+
+
+ - Serendipity (how surprised, category maybe never showed)
+ - Content diversity
+ - The "best" recommendation
+
+ - Past of the recommendation
+ - different color pallette
